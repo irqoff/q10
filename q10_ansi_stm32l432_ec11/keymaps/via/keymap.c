@@ -92,7 +92,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_PRINT_SCREEN,  KC_TAB,         KC_Q,        KC_W,           KC_E,    KC_R,           KC_T,            KC_Y,            KC_U,     KC_I,     KC_O,     KC_P,     KC_LBRC,  KC_RBRC,        KC_BSLS,      KC_PGDN,
         LGUI(KC_SPC),     OSM(MOD_LCTL),  KC_A,        KC_S,           KC_D,    KC_F,           KC_G,            KC_H,            KC_J,     KC_K,     KC_L,     KC_SCLN,  KC_QUOT,  KC_ENT,         TD(TD_H_E),
         TD(TD_CD_CZ),     TD(TD_CC_CV),   KC_Z,        KC_X,           KC_C,    KC_V,           KC_B,            RCTL_T(KC_TAB),  KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_SLSH,  TD(TD_LN_DEL),  KC_UP,
-        MEH_T(KC_BSPC),  KC_ENT,         LCTL(KC_A),  OSM(MOD_LALT),  KC_SPC,  OSM(MOD_LSFT),  LSFT_T(KC_SPC),  LGUI_T(KC_ESC),  KC_LEFT,  KC_DOWN,  KC_RGHT),
+        MEH_T(KC_BSPC),   KC_ENT,         LCTL(KC_A),  OSM(MOD_LALT),  KC_SPC,  OSM(MOD_LSFT),  LSFT_T(KC_SPC),  LGUI_T(KC_ESC),  KC_LEFT,  KC_DOWN,  KC_RGHT),
 
     [WIN_FN] = LAYOUT_ansi_89(
         RGB_TOG,    _______,  KC_BRID,  KC_BRIU,  KC_TASK,  MEH(KC_N),  RGB_VAD,   RGB_VAI,  KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_MUTE,  KC_VOLD,   KC_VOLU,  _______,            _______,
